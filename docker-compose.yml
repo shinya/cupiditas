@@ -11,7 +11,5 @@ services:
     image: httpd
     volumes:
       - "${PWD}:/usr/local/apache2/htdocs/"
-    ports:
-      - 8080:80
     environment:
-      - VIRTUAL_HOST=eas.local
+      - VIRTUAL_HOST=cupiditas.local

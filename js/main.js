@@ -195,9 +195,11 @@
     function setMemberList(){
         let target = $('.members');
 
+		let dir = location.pathname.substring(0, location.pathname.lastIndexOf('/')) + '/';
+
         for(let i = 0; i < memberList.length; i++){
             let anchor = $('<a>')
-                .attr('href', '/?' + parameter + '=' + memberList[i]['key'])
+                .attr('href', dir + '?' + parameter + '=' + memberList[i]['key'])
                 .text(memberList[i]['name'])
             ;
 

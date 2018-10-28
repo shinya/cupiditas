@@ -12,7 +12,7 @@ Like a Japanese game "Commentary! Powerful professional baseball", it is a tool 
 
 
 
-## 使い方
+## How to use
 
 1. `/regist.html` にまずアクセスし、自分のエンジニアスキルを入力して下さい。
 1. できるだけ正確に、そして誠実に（笑）
@@ -21,7 +21,7 @@ Like a Japanese game "Commentary! Powerful professional baseball", it is a tool 
 1. `/data/member.json` にそのコピーしたデータを貼り付けて下さい。
 1. 再び、 `/index.html` にアクセスしてみて下さい。あなたが入力したものが反映されているはずです。
 
-## その他
+## Other
 
 * こんなスキルを増やして欲しい！というプルリクお待ちしております。
 * テクニカルスキルの部分とマネジメントスキルの部分はまだ製作中です（ごめんなさい）

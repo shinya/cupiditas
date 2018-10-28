@@ -1,0 +1,669 @@
+
+
+
+
+.members {
+	position: relative;
+	height: 100%;
+	margin: 2rem 0.4rem;
+	padding: 0;
+	z-index: 1;
+
+	z-index: 1;
+}
+
+.members a {
+	position: relative;
+	display: inline-block;
+	width: 14rem;
+	padding: 0.4rem 1rem;
+	margin: 0.2rem 0.4rem;
+
+	color: #b86a1d;
+	font-size: 1.6rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+
+	text-decoration: none;
+	border-radius: 8px;
+	/*
+		border: #1c6ab8 3px solid;
+		background: #f2f9ff;
+	*/
+	border: #b86a1d 3px solid;
+	background: #fff9f2;
+}
+
+.members a:hover {
+	background: #d6d1cb;
+}
+
+
+
+
+
+.tabs {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+.l-button, .r-button {
+	position: relative;
+	margin: 0 2rem;
+	padding: 0.2rem 3rem;
+	font-size: 1.8rem;
+	text-align: center;
+	border: #333333 1px solid;
+	border-radius: 8px;
+	background: #ffffff;
+}
+
+a.l-button, a.r-button {
+	color: #333333;
+	text-decoration: none;
+}
+
+
+
+.tab {
+	position: relative;
+	bottom: -4px;
+	width: 14rem;
+	padding: 1rem 1rem 1rem;
+	margin: 0 0.5rem;
+	text-align: center;
+	display: inline-block;
+
+	text-decoration: none;
+
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top: #17a2b8 4px solid;
+	border-left: #17a2b8 4px solid;
+	border-right: #17a2b8 4px solid;
+
+	background: #c2cdcd;
+}
+
+.tab.technical {
+	border-top: #b82d18 4px solid;
+	border-left: #b82d18 4px solid;
+	border-right: #b82d18 4px solid;
+	background: #cdc5c3;
+
+}
+
+.tab.management {
+	border-top: #1a1ab8 4px solid;
+	border-left: #1a1ab8 4px solid;
+	border-right: #1a1ab8 4px solid;
+	background: #c3c3cd;
+}
+
+
+.tab.other {
+	border-top: #1db81d 4px solid;
+	border-left: #1db81d 4px solid;
+	border-right: #1db81d 4px solid;
+	background: #c2ccc2;
+
+}
+
+
+a.tab {
+	color: #22A2C6;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+a.tab.technical {
+	color: #c43623;
+}
+
+a.tab.management {
+	color: #2323c2;
+}
+
+a.tab.other {
+	color: #25c225;
+}
+
+
+.tab-active {
+	border-bottom: #f0ffff 4px solid;
+	background: #f0ffff;
+}
+.tab-active.technical {
+	border-bottom: #fff4f2 4px solid;
+	background: #fff4f2;
+}
+.tab-active.management {
+	border-bottom: #f2f2ff 4px solid;
+	background: #f2f2ff;
+}
+.tab-active.other {
+	border-bottom: #f2fff2 4px solid;
+	background: #f2fff2;
+}
+
+
+
+
+.box {
+	position: relative;
+	padding: 4px 20px;
+	z-index: 1;
+}
+.ability-box {
+	border: #17a2b8 4px solid;
+	background: #f0ffff;
+	z-index: 1;
+}
+
+.technical-box {
+	border: #b82d18 4px solid;
+	background: #fff4f2;
+	z-index: 1;
+}
+
+.management-box {
+	border: #1a1ab8 4px solid;
+	background: #f2f2ff;
+	z-index: 1;
+}
+
+.other-box {
+	border: #1db81d 4px solid;
+	background: #f2fff2;
+	z-index: 1;
+}
+
+
+.profile {
+	position: relative;
+	display: inline-block;
+	padding: 2px;
+	margin: 2px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	border: 1px #cccccc solid;
+	background: #ffffff;
+}
+
+.name {
+	width: 14rem;
+	padding: 0.4rem 0.8rem;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.belong-to {
+	width: 14rem;
+	margin-left: 0.4rem;
+	padding: 0.4rem 0px;
+	text-align: center;
+	border-radius: 0px;
+	border-bottom: #cccccc 1px solid;
+}
+
+.title {
+	width: 14rem;
+	margin-top: 0.4rem;
+	margin-left: 0.4rem;
+	padding: 0.2rem 0;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.style {
+	margin-top: 0.6rem;
+	padding: 0.2rem 0.8rem;
+	border-radius: 0px;
+	border-top: rgba(23, 162, 184, 0.45) 1px solid;
+}
+
+
+.style-item {
+	text-align: center;
+	font-size: 1.4rem;
+	/*
+		font-weight: bold;
+	*/
+	padding: 0.4rem 1rem;
+	width: 8.2rem;
+}
+
+.avatar {
+	position: relative;
+	padding-right: 1rem;
+	padding-bottom: 0.2rem;
+	width: 6rem;
+}
+
+
+
+
+
+
+.point-skills {
+	display: inline-block;
+}
+
+.point-skill {
+	display: inline-block;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+	background: #ffffff;
+	width: 11em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	border: 1px #cccccc solid;
+}
+
+.skill-name {
+	color: #22A2C6;
+	padding: 0.8rem 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-shadow:2px 2px 2px #aeb3c4;
+}
+
+.skill-score {
+	padding: 0.4rem 0;
+	text-align: center;
+	font-size: 3rem;
+	line-height: 0.8;
+	font-weight:bold;
+	text-shadow: 3px 3px 6px #acb1bc;
+}
+
+.score-s {
+	color: #ff82d3;
+}
+
+.score-a {
+	color: #EF33AD;
+}
+
+.score-b {
+	color: #ed3453;
+}
+
+.score-c {
+	color: #eb7134;
+}
+
+.score-d {
+	color: #ebeb36;
+}
+
+.score-e {
+	color: #36eb72;
+}
+
+.score-f {
+	color: #3636eb;
+}
+
+.score-g {
+	color: #999999;
+}
+
+.score-z {
+	color: #333333;
+}
+
+.skill-point {
+	padding: 0.4rem 0;
+	/*
+		color: #fff3cd;
+	*/
+	color: #ffff96;
+	font-size: 2rem;
+	letter-spacing: 0.4rem;
+	text-shadow: 0px 2px 1px #22A2C6
+	, 0px -2px 1px #22A2C6
+	, 2px 0px 1px #22A2C6
+	, -2px 0px 1px #22A2C6
+;
+}
+
+
+
+.ability-box .abilities {
+	text-align: center;
+	margin: 4px;
+	padding: 4px 1rem;
+	border: rgba(23, 162, 184, 0.8) 2px solid;
+	background: #faffff;
+}
+
+
+.inherent-ability {
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+.inherent-ability .caption {
+	color: #727206;
+	margin: 0.6rem;
+
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.inherent-ability .ability-name {
+	margin: 4px 10px;
+	padding: 2px 0.33rem;
+	width: 14rem;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+
+	color: #8a8a07;
+	border: #c4c408 4px solid;
+	background: #ffff96;
+}
+
+.inherent-ability .ability-detail {
+	padding: 0px 2rem;
+	text-align: left;
+	line-height: 2;
+	width: 50rem;
+	color: #8a8a07;
+	font-size: 1.4rem;
+}
+
+.inherent-ability .ability-detail .underline {
+	padding-bottom: 2px;
+	border-bottom: #8a8a07 1px solid;
+}
+
+
+
+
+
+
+
+
+.numerical-abilities {
+	position: relative;
+	margin-bottom: 1.4rem;
+}
+
+
+.numerical-ability {
+	position: relative;
+	display: inline-block;
+	margin: 4px 10px;
+	width: 16rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2;
+	letter-spacing: 0.14rem;
+	border-width: 2px;
+	border-style: solid;
+}
+
+
+.numerical-ability .ability-name {
+	position: relative;
+	padding: 0px 0.2rem ;
+	width: 13.6rem;
+}
+
+.numerical-ability .ability-value {
+	position: absolute;
+	top: -0.6rem;
+	right: 0px;
+	width: 2rem;
+	color: #333333;
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 2;
+}
+
+
+.numerical-ability.level-5 {
+	border-color: #0F71DF;
+	background: #0F71DF;
+}
+
+.numerical-ability.level-5 .ability-name {
+	color: #0e5aad;
+	background: #CDE3FC;
+}
+
+.numerical-ability.level-5 .ability-value {
+	color: #ffffff;
+}
+
+
+
+.numerical-ability.level-4 {
+	border-color: #10bbde;
+	background: #10bbde;
+}
+
+.numerical-ability.level-4 .ability-name {
+	color: #0f91ab;
+	background: #cdf2fa;
+}
+
+.numerical-ability.level-4 .ability-value {
+	color: #ffffff;
+}
+
+
+
+.numerical-ability.level-3 {
+	border-color: #97C9D3;
+	background: #97C9D3;
+}
+
+.numerical-ability.level-3 .ability-name {
+	color: #0f91ab;
+	background: #eaffff;
+}
+
+.numerical-ability.level-3 .ability-value {
+	color: #ffffff;
+}
+
+
+
+.numerical-ability.level-2 {
+	border-color: #e68627;
+	background: #e68627;
+}
+
+.numerical-ability.level-2 .ability-name {
+	color: #a15c18;
+	background: #fae2ca;
+}
+
+.numerical-ability.level-2 .ability-value {
+	color: #ffffff;
+}
+
+
+
+.numerical-ability.level-1 {
+	border-color: #E92175;
+	background: #E92175;
+}
+
+.numerical-ability.level-1 .ability-name {
+	color: #a3174e;
+	background: #FECBE0;
+}
+
+.numerical-ability.level-1 .ability-value {
+	color: #ffffff;
+}
+
+
+
+
+
+
+.special-abilities {
+}
+
+
+.special-ability {
+	position: relative;
+	display: inline-block;
+	margin: 4px 10px;
+	padding: 2px 0.33rem;
+	width: 12rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+	border: rgba(23, 162, 184, 0.45) 2px solid;
+	background: #eaffff;
+}
+
+.proprietary-skill {
+	color: #8a4606;
+	border-color: #C66206;
+	background: #FFC794;
+}
+
+.personality {
+	/*
+		color: #145c72;
+		border: rgba(23, 162, 184, 1) 2px solid;
+		background: #9cf2ff;
+	*/
+	color: #0fab29;
+	border-color: #14de36;
+	background: #cdfad4;
+
+}
+
+.positive-ability {
+	color: #0e5aad;
+	border-color: #0F71DF;
+	background: #CDE3FC;
+}
+
+.negative-ability {
+	color: #a3174e;
+	border-color: #E92175;
+	background: #FECBE0;
+
+}
+
+.negaposi-ability {
+	color: #63219c;
+	border-color: #8828CE;
+	background: linear-gradient(to right ,#CDE3FC 45%, #FECBE0 55%, #FECBE0);
+}
+
+
+
+
+
+.technical-box .abilities {
+	text-align: center;
+	margin: 0 0.2rem 3rem;
+	padding: 4px 1rem;
+	border: rgba(184, 47, 29, 0.8) 2px solid;
+
+	background: #fffdfc;
+}
+
+.technical-ability {
+	position: relative;
+	display: inline-block;
+	margin: 4px 10px;
+	padding: 2px 0.33rem;
+	width: 12rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+
+	color: #ab5d0f;
+	border: #de7812 2px solid;
+	background: #fae3cd;
+}
+
+.technical-box .blank {
+	border: rgba(222, 120, 18, 0.4) 2px solid;
+	background: rgba(250, 227, 205, 0.4);
+}
+
+
+
+
+
+.management-box .abilities {
+	text-align: center;
+	margin: 4px;
+	padding: 4px 1rem;
+	border: rgba(29, 29, 184, 0.8) 2px solid;
+
+	background: #fcfcff;
+}
+
+.human-ability {
+	position: relative;
+	display: inline-block;
+	margin: 4px 10px;
+	padding: 2px 0.33rem;
+	width: 12rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+
+	color: #770fab;
+	border: #9b14de 2px solid;
+	background: #ebcdfa;
+}
+
+.management-box .blank {
+	border: rgba(155, 20, 222, 0.4) 2px solid;
+	background: rgba(235, 205, 250, 0.4);
+}
+
+
+
+
+
+.other-box .abilities {
+	text-align: center;
+	margin: 4px;
+	padding: 4px 1rem;
+	border: rgba(29, 184, 29, 0.8) 2px solid;
+
+	background: #fcfffc;
+}
+.other-ability {
+	position: relative;
+	display: inline-block;
+	margin: 4px 10px;
+	padding: 2px 0.33rem;
+	width: 12rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+
+	color: #0fab43;
+	border: #16de59 2px solid;
+	background: #cdfadc;
+}
+
+.other-box .blank {
+	border: rgba(22, 222, 89, 0.4) 2px solid;
+	background: rgba(205, 250, 220, 0.4);
+}
+

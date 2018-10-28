@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Regist Form</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/regist.css">
+
+    <script type="text/javascript" src="js/lib/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/popper.min.js"></script>
+    <script type="text/javascript" src="js/lib/tooltip.min.js"></script>
+
+
+    <script type="text/javascript" src="js/regist.js"></script>
+
+</head>
+<body>
+    <h1>Regist Form</h1>
+    <div class="container">
+        <div class="form-box">
+
+            <div class="col">
+                <h2>Profile</h2>
+                <div class="contents">
+                    <label>Name</label><input type="text" id="name" name="name" value="エンジニア太郎" placeholder="John Do">
+                </div>
+                <div class="contents">
+                    <label>Belong To</label><input type="text" id="belong-to" name="belong-to" value="株式会社エンジニア" placeholder="Example Co Ltd">
+                </div>
+                <div class="contents">
+                    <label>Title</label><input type="text" id="title" name="title" value="プログラマー" placeholder="Programer">
+                </div>
+                <div class="contents">
+                    <label>Avatar</label><input type="text" id="avator" name="avatar" value="./img/avator-male.png" placeholder="URL..">
+                </div>
+
+                <h3>Style</h3>
+                <div class="contents">
+                    <label>Desktop</label>
+                    <select id="desktop" name="desktop">
+                        <option value="Windows">Windows</option>
+                        <option value="Mac">Mac</option>
+                        <option value="Linux">Linux</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="contents">
+                    <label>Mobile</label>
+                    <select id="mobile" name="mobile">
+                        <option value="iPhone">iPhone</option>
+                        <option value="Android">Android</option>
+                        <option value="Windows">Windows</option>
+                        <option value="FireFox">FireFox</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <h2>Skill Point</h2>
+
+                <div class="contents skill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-1" value="Programing" placeholder="Programing">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-1" value="100" placeholder="100" min="1" max="100">
+                </div>
+                <div class="contents skill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-2" value="Database" placeholder="Database">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-2" value="100" placeholder="100" min="1" max="100">
+                </div>
+                <div class="contents kill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-3" value="Network" placeholder="Network">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-3" value="100" placeholder="100" min="1" max="100">
+                </div>
+                <div class="contents skill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-4" value="OS" placeholder="OS">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-4" value="100" placeholder="100" min="1" max="100">
+                </div>
+                <div class="contents skill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-5" value="Hardware" placeholder="Hardware">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-5" value="100" placeholder="100" min="1" max="100">
+                </div>
+                <div class="contents skill-point">
+                    <label>Skill Name</label><input type="text" class="skill-name" name="skill-name-6" value="Security" placeholder="Security">
+                    <label>Skill Point</label><input type="number" class="skill-value" name="skill-point-6" value="100" placeholder="100" min="1" max="100">
+                </div>
+            </div>
+
+
+            <div class="col" style="position: relative;height: 100%;">
+                <h2>Inherent Ability</h2>
+                <div class="contents">
+                    <label>Name</label><input type="text" id="inherent-ability-name" name="inherent-ability-name" value="Ability Name" placeholder="Ability Name">
+                </div>
+
+                <div class="contents">
+                    <label>Description</label><textarea id="inherent-ability-value" placeholder="Ability Description">Ability Description</textarea>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <h2>Numerical Ability</h2>
+
+                <div class="numerical-abilities"></div>
+            </div>
+
+            <div class="col">
+                <h2>Special Ability</h2>
+                <div class="special-abilities"></div>
+
+                <button id="output" class="btn btn-blue">Output</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal-box" style="display: none;">
+        <div class="back-screen"></div>
+        <div class="result-box">
+            <textarea id="result"></textarea>
+            <div class="modal-footer">
+                <button class="btn btn-blue copy">Copy</button>
+                <button class="btn btn-red close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide">
+        <input type="checkbox" class="ability" data-off="OFF" data-on="ON">
+
+        <div class="numerical-ability">
+            <label></label>
+            <select class="" name="xxxxx">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <div class="col description"></div>
+        </div>
+
+    </div>
+</body>
+</html>

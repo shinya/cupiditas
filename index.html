@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Engineer Ability Sheet</title>
+
+    <link rel="stylesheet" href="css/lib/solid.min.css">
+    <link rel="stylesheet" href="css/lib/brands.min.css">
+    <link rel="stylesheet" href="css/lib/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/ability.css">
+
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <script src="js/lib/popper.min.js"></script>
+    <script src="js/lib/tooltip.min.js"></script>
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<h1>Engineer Ability Sheet</h1>
+<div class="container">
+    <div class="members"></div>
+    <div class="main-contents">
+        <div class="tabs">
+            <a href="#" class="l-button">L</a>
+            <a href="#" class="tab ability tab-active" data-target="ability-box">概要</a>
+            <a href="#" class="tab technical" data-target="technical-box">テクニカルスキル</a>
+            <a href="#" class="tab management" data-target="management-box">マネジメントスキル</a>
+            <a href="#" class="r-button">R</a>
+        </div>
+
+        <div class="box ability-box">
+            <div class="profile">
+                <div class="row">
+                    <div class="col">
+                        <div class="name row"></div>
+                        <div class="belong-to row"></div>
+                        <div class="title row"></div>
+                    </div>
+                    <div class="col">
+                        <img class="avatar" src="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="style">
+                        <div class="style-item col"><i class="fas fa-desktop"></i>&nbsp;<span class="style-desktop dark-blue"></span></div>
+                        <div class="style-item col"><i class="fas fa-mobile-alt"></i>&nbsp;<span class="style-mobile dark-red"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="point-skills"></div>
+
+            <div class="abilities">
+                <div class="inherent-ability">
+                    <div class="row">
+                        <div class="col">
+                            <div class="caption">特有スキル</div>
+                            <div class="ability-name">&nbsp;</div>
+                        </div>
+                        <div class="col">
+                            <div class="ability-detail">
+                                <span class="underline">&nbsp;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="numerical-abilities"></div>
+                <div class="special-abilities"></div>
+            </div>
+
+        </div>
+
+        <div class="box technical-box hide">
+            <div class="profile">
+                <div class="row">
+                    <div class="col">
+                        <div class="name row"></div>
+                        <div class="belong-to row"></div>
+                        <div class="title row"></div>
+                    </div>
+                    <div class="col">
+                        <img class="avatar" src="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="style">
+                        <div class="style-item col"><i class="fas fa-desktop"></i>&nbsp;<span class="dark-blue">Mac&nbsp;<i class="fab fa-apple"></i></span></div>
+                        <div class="style-item col"><i class="fas fa-mobile-alt"></i>&nbsp;<span class="dark-red">Android&nbsp;<i class="fab fa-android"></i></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>プログラム言語</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>データベース</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>ネットワーク</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>OS・ミドルウェア</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>ハードウェア</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>AD EBiS</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+            <h2>EC-CUBE</h2>
+            <div class="abilities">
+                <div class="technical-ability blank">&nbsp;</div>
+            </div>
+
+        </div>
+
+
+        <div class="box management-box hide">
+            <div class="profile">
+                <div class="row">
+                    <div class="col">
+                        <div class="name row"></div>
+                        <div class="belong-to row"></div>
+                        <div class="title row"></div>
+                    </div>
+                    <div class="col">
+                        <img class="avatar" src="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="style">
+                        <div class="style-item col"><i class="fas fa-desktop"></i>&nbsp;<span class="dark-blue">Mac&nbsp;<i class="fab fa-apple"></i></span></div>
+                        <div class="style-item col"><i class="fas fa-mobile-alt"></i>&nbsp;<span class="dark-red">Android&nbsp;<i class="fab fa-android"></i></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="abilities">Under construction</div>
+        </div>
+
+        <div class="hide">
+            <div class="point-skill">
+                <div class="skill-name"></div>
+                <div class="skill-score"></div>
+                <div class="skill-point"></div>
+            </div>
+
+
+            <div class="numerical-ability" data-detail="eee">
+                <div class="ability-name"></div><div class="ability-value"></div>
+            </div>
+
+
+            <div class="special-ability">&nbsp;</div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+<div class="ajax-modal">
+    <img class="loader" src="img/ajax-loader.gif">
+</div>
+</body>
+</html>

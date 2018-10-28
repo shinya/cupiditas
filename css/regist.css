@@ -1,0 +1,218 @@
+.form-box {
+	position: relative;
+	margin: 2rem 0.2rem;
+	padding: 0.2rem 1.4rem;
+	border: #17a2b8 2px solid;
+}
+
+
+.form-box select {
+	cursor: pointer;
+	font-size: 1.4rem;
+	padding: 10px;
+	border: #17a2b8 2px solid;
+}
+
+input:focus {
+	outline: none;
+}
+
+.contents {
+	margin: 1rem;
+}
+
+.contents label {
+	display: inline-block;
+	padding: 0.4rem;
+	width: 6rem;
+	text-align: right;
+}
+
+.contents input[type="text"], .contents input[type="email"] {
+	padding: 0.6rem;
+	width: 20rem;
+	border: 1px solid #999999;
+	border-radius: 4px;
+}
+
+.contents input[type="number"] {
+	padding: 0.6rem;
+	width: 3rem;
+	border: 1px solid #999999;
+	border-radius: 4px;
+}
+
+
+.contents textarea {
+	padding: 0.6rem;
+	width: 20rem;
+	height: 8rem;
+	border: 1px solid #999999;
+	border-radius: 4px;
+}
+
+.contents input:focus, .contents textarea:focus {
+/*
+*/
+	outline: 1px solid #16cc71;
+	box-shadow: 0px 0px 3px 1px rgba(22, 204, 113, 0.8);
+}
+
+
+.numerical-ability {
+	margin: 0.4rem 1rem;
+}
+
+.numerical-ability label {
+	color: #333333;
+	font-size: 1.2rem;
+	display: inline-block;
+	width: 8rem;
+	padding: 0.2rem 0.8rem;
+	margin-bottom: 2px;
+}
+.numerical-ability .description {
+	color: #666666;
+	padding: 0rem 1rem;
+}
+
+
+.special-abilities {
+	margin: 02.2rem 4rem;
+}
+
+.ability:focus:hover{
+	outline: none;
+}
+
+.ability {
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+
+	vertical-align: top;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 200ms;
+
+	position: relative;
+	display: inline-block;
+	margin: 0.33rem 0.833rem;
+	padding: 2px 0.33rem;
+	width: 12rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 0.14rem;
+	border: rgba(23, 162, 184, 0.45) 2px solid;
+	background: #eaffff;
+}
+
+.ability:active {
+	width: 12rem;
+	margin: 0.33rem 0.833rem;
+}
+
+.ability:not(:checked)::after{
+	content: attr(data-off);
+}
+
+.ability:not(:checked) {
+	color: #999999;
+	border-color: #999999;
+	background-color: #eeeeee;
+}
+
+.ability:checked::after {
+	content: attr(data-on);
+	color: #333333;
+}
+
+.positive-ability {
+	color: #0e5aad;
+	border-color: #0F71DF;
+	background: #CDE3FC;
+}
+
+.negative-ability {
+	color: #a3174e;
+	border-color: #E92175;
+	background: #FECBE0;
+}
+
+.negaposi-ability {
+	color: #63219c;
+	border-color: #8828CE;
+	background: linear-gradient(to right ,#CDE3FC 45%, #FECBE0 55%, #FECBE0);
+}
+
+.personality {
+	color: #0fab29;
+	border-color: #14de36;
+	background: #cdfad4;
+
+}
+
+
+.btn {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 0.6rem 1.6rem;
+	border-radius: 8px;
+}
+
+.btn-blue {
+	color: #ffffff;
+	background: #1669CD;
+}
+.btn-red {
+	color: #ffffff;
+	background: #cc1616;
+}
+
+
+.modal-box {
+	position: fixed;
+	display: block;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+}
+
+.back-screen {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	background: rgba(51, 51, 51, 0.80);
+	z-index: 1;
+}
+
+.result-box {
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	left: 50%;
+	margin-left: -40%;
+	z-index: 100;
+}
+
+#result {
+	position: relative;
+	display: block;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	width: 100%;
+	height: 8rem;
+	padding: 0.4rem;
+}
+
+.modal-footer {
+	position: relative;
+	display: block;
+	width: 100%;
+}

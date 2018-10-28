@@ -1,0 +1,681 @@
+{
+  "point-skill":[
+    {
+      "score":"S",
+      "border":90
+    },
+    {
+      "score":"A",
+      "border":80
+    },
+    {
+      "score":"B",
+      "border":70
+    },
+    {
+      "score":"C",
+      "border":60
+    },
+    {
+      "score":"D",
+      "border":50
+    },
+    {
+      "score":"E",
+      "border":40
+    },
+    {
+      "score":"F",
+      "border":20
+    },
+    {
+      "score":"G",
+      "border":1
+    }
+  ],
+  "abilities": {
+    "numerical-ability": [
+      {
+        "id": 0,
+        "name": "数値化スキルです",
+        "description": "ここにマウスオーバー時の説明文を書きます"
+      },
+      {
+        "id": 1,
+        "name": "対障害",
+        "description": "障害が発生したときに能力を発揮できる指数。高いほど障害に強い。"
+      },
+      {
+        "id": 2,
+        "name": "対リリース",
+        "description": "リリース作業を安定して実行できる指数。高いほど安定している。"
+      },
+      {
+        "id": 3,
+        "name": "打たれ強さ",
+        "description": "障害・トラブル・不運が続いた時でも、メンタルを保っていられるか。高いほど強い。"
+      },
+      {
+        "id": 4,
+        "name": "休みにくさ",
+        "description": "体調不良やケガ等で休むことがないかどうか。高いほど休まない。"
+      },
+      {
+        "id": 5,
+        "name": "プレゼン力",
+        "description": "自分の意見やノウハウを伝えるスキル。高いほど優れている。"
+      },
+      {
+        "id": 6,
+        "name": "安定度",
+        "description": "心身の状況にパフォーマンスが左右されるか否か。高いほど安定している。"
+      },
+      {
+        "id": 7,
+        "name": "コミュ力",
+        "description": "コミュニケーションスキル。高いほど能力が高い。"
+      },
+      {
+        "id": 8,
+        "name": "情報吸収力",
+        "description": "物事をインプットする力。高いほどスポンジのように吸収する。"
+      },
+      {
+        "id": 9,
+        "name": "情報発信力",
+        "description": "物事をアウトプットする力。高いほど自分の知識や考えを世の中に送り出している。"
+      },
+      {
+        "id": 10,
+        "name": "リスクヘッジ",
+        "description": "仕事する上で、リスクを十分にとっているか。高いほどヘッジする能力が高い。"
+      }
+    ],
+    "special-ability": [
+      {
+        "id": 0,
+        "type": "",
+        "title": "\u00a0",
+        "description": "ブランクです"
+      },
+      {
+        "id": 1,
+        "type": "positive-ability",
+        "title": "予知能力",
+        "description": "状況を見て、ある程度未来に起こるであろうことが予想できる"
+      },
+      {
+        "id": 2,
+        "type": "positive-ability",
+        "description": "組織の中で、コードのレビュアーや技術的な課題について意見を聞かれる場面が多い",
+        "title": "テックリード"
+      },
+      {
+        "id": 3,
+        "type": "positive-ability",
+        "description": "何でもかんでも基本、Vimでする。IDE？なんですかそれは",
+        "title": "Vim職人"
+      },
+      {
+        "id": 4,
+        "type": "personality",
+        "description": "業務で生じる様々な作業を基本的にShellで解決する。Shellがあれば何でもできる。",
+        "title": "Shell芸人"
+      },
+      {
+        "id": 5,
+        "type": "positive-ability",
+        "description": "どんなときでも明るく、楽しそうに仕事を行う",
+        "title": "超ポジティブ"
+      },
+      {
+        "id": 6,
+        "type": "negative-ability",
+        "description": "遅刻することが多い",
+        "title": "遅刻魔"
+      },
+      {
+        "id": 7,
+        "type": "negaposi-ability",
+        "description": "機嫌がいい時のパフォーマンスは非常に高く、逆に悪いときのパフォーマンスは非常に低くなる",
+        "title": "気分屋"
+      },
+      {
+        "id": 8,
+        "type": "personality",
+        "description": "期待の新人。才能が花開くのはこれからだが、同時に可能性を秘めている。",
+        "title": "新人"
+      },
+      {
+        "id": 9,
+        "type": "negative-ability",
+        "description": "いつでもどこでも、よく喋っている。逆にいないと場が静かになる程。",
+        "title": "おしゃべりクソ野郎",
+        "append": {
+          "class": [
+            "font-small"
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "type": "personality",
+        "description": "集団の場では声を上げる立場になることが多い",
+        "title": "ガヤ"
+      },
+      {
+        "id": 11,
+        "type": "positive-ability",
+        "description": "常に情報収集を怠らない",
+        "title": "アンテナ"
+      },
+      {
+        "id": 12,
+        "type": "positive-ability",
+        "description": "フランス語を話すことができる",
+        "title": "フランス語"
+      },
+      {
+        "id": 13,
+        "type": "personality",
+        "description": "Apple製品を盲信している",
+        "title": "Apple信者"
+      },
+      {
+        "id": 14,
+        "type": "personality",
+        "description": "列思考DBのVerticaを盲信している",
+        "title": "Vertica教徒"
+      },
+      {
+        "id": 15,
+        "type": "positive-ability",
+        "description": "ショートカットキーを極めれば、マウスなんていりません。",
+        "title": "マウスは不要"
+      },
+      {
+        "id": 16,
+        "type": "personality",
+        "description": "実を言うと、インデントにはSpaceを使いたい",
+        "title": "TabよりSpace"
+      },
+      {
+        "id": 17,
+        "type": "personality",
+        "description": "実を言うと、インデントにはTabを使いたい",
+        "title": "SpaceよりTab"
+      },
+      {
+        "id": 18,
+        "type": "negative-ability",
+        "description": "上司や先輩相手でも、物の言い方が偉そう",
+        "title": "上から目線"
+      },
+      {
+        "id": 19,
+        "type": "personality",
+        "description": "飲み会などの賑やかな場面で盛り上げ役に回ることが多い",
+        "title": "お祭り野郎"
+      },
+      {
+        "id": 20,
+        "type": "personality",
+        "description": "エディタはVimを使用する。Emacsはあまり好きじゃない",
+        "title": "Vim派"
+      },
+      {
+        "id": 21,
+        "type": "personality",
+        "description": "エディタはEmacsを使用する。Vimはあまり好きじゃない",
+        "title": "Emacs派"
+      },
+      {
+        "id": 22,
+        "type": "positive-ability",
+        "description": "思考回路・意見が論理的に展開されている",
+        "title": "ロジカル"
+      },
+      {
+        "id": 23,
+        "type": "personality",
+        "description": "独り言が多い",
+        "title": "独り言"
+      },
+      {
+        "id": 24,
+        "type": "positive-ability",
+        "description": "裏打ちされた経験で、なかなか真似のできないスキルを発揮する",
+        "title": "職人技"
+      },
+      {
+        "id": 25,
+        "type": "negaposi-ability",
+        "description": "頑固な性格。他人の意見の影響を受けにくい。",
+        "title": "こだわり強い"
+      },
+      {
+        "id": 26,
+        "type": "personality",
+        "description": "チームで仕事をしたほうがパフォーマンスを発揮しやすい",
+        "title": "チームプレイヤー"
+      },
+      {
+        "id": 27,
+        "type": "personality",
+        "description": "一人で仕事をしたほうがパフォーマンスを発揮しやすい",
+        "title": "ソロプレイヤー"
+      },
+      {
+        "id": 28,
+        "type": "positive-ability",
+        "description": "守備範囲は狭いが、その分野に非常に特化したスキルを持っている",
+        "title": "とんがり野郎"
+      },
+      {
+        "id": 29,
+        "type": "positive-ability",
+        "description": "とにかく行動が早い、もしくは開発スピードが爆速な人",
+        "title": "電光石火"
+      },
+      {
+        "id": 30,
+        "type": "negative-ability",
+        "description": "想定外のことが起きると思考が停止しやすい",
+        "title": "テンパリ屋"
+      },
+      {
+        "id": 31,
+        "type": "positive-ability",
+        "description": "まだ障害ではないバグや状況をいち早く察知できる",
+        "title": "地雷探知機"
+      },
+      {
+        "id": 32,
+        "type": "negative-ability",
+        "description": "近い将来、誰かが踏むであろう障害を仕込んでしまいやすい",
+        "title": "地雷埋め"
+      },
+      {
+        "id": 33,
+        "type": "negaposi-ability",
+        "description": "後輩に萎縮されることもあるが、上司や先輩に意見や提案を通す凄みがある",
+        "title": "威圧感"
+      },
+      {
+        "id": 34,
+        "type": "negative-ability",
+        "description": "不運に見舞われることが多い",
+        "title": "ハードラック"
+      },
+      {
+        "id": 35,
+        "type": "positive-ability",
+        "description": "アーキテクチャ設計が得意",
+        "title": "アーキテクチャ"
+      },
+      {
+        "id": 36,
+        "type": "positive-ability",
+        "description": "組織の中で指揮を執る立場になることが多い",
+        "title": "リーダーシップ"
+      },
+      {
+        "id": 37,
+        "type": "personality",
+        "description": "出張に行く機会が多い",
+        "title": "出張多い"
+      },
+      {
+        "id": 38,
+        "type": "personality",
+        "description": "よく笑う",
+        "title": "ゲラ"
+      },
+      {
+        "id": 39,
+        "type": "negative-ability",
+        "description": "過去に自分が原因で大障害を引き起こしたことがある",
+        "title": "バグテロリスト"
+      },
+      {
+        "id": 40,
+        "type": "positive-ability",
+        "description": "テクニカルとマネージメントの両スキルを持っている",
+        "title": "二刀流"
+      },
+      {
+        "id": 41,
+        "type": "positive-ability",
+        "description": "火消し要因としてPJにアサインされることが多い",
+        "title": "め組の人"
+      },
+      {
+        "id": 42,
+        "type": "positive-ability",
+        "description": "二ヶ国語以上の言語を話すことができる",
+        "title": "マルチリンガル"
+      },
+      {
+        "id": 43,
+        "type": "personality",
+        "description": "革新的もしくは実験的な試みが好き。新しいことを取り入れる傾向。",
+        "title": "アバンギャルド"
+      },
+      {
+        "id": 44,
+        "type": "personality",
+        "description": "保守的。今までの文化や習慣を重んじ、トレンドに左右されない。",
+        "title": "コンサバティブ"
+      },
+      {
+        "id": 45,
+        "type": "personality",
+        "description": "口よりも手が動く。",
+        "title": "寡黙"
+      },
+      {
+        "id": 46,
+        "type": "personality",
+        "description": "デスクトップにアイコンが散らばっている。",
+        "title": "過密デスクトップ"
+      },
+      {
+        "id": 47,
+        "type": "personality",
+        "description": "JISキーボードではありません。シングルクォートはシフト押さない。",
+        "title": "英字キーボード"
+      },
+      {
+        "id": 48,
+        "type": "personality",
+        "description": "キーボードに文字を表記する必要はないです。男気でタイピング。",
+        "title": "無刻印キーボード"
+      },
+      {
+        "id": 49,
+        "type": "positive-ability",
+        "description": "まだ誰もやっていない挑戦、例えばPOCのような取り組みが得意",
+        "title": "切り込み隊長"
+      },
+      {
+        "id": 50,
+        "type": "positive-ability",
+        "description": "基本的にバグは出さない、安定した開発ができる。",
+        "title": "鉄壁"
+      },
+      {
+        "id": 51,
+        "type": "positive-ability",
+        "description": "守備範囲が広い。どんなことでもある程度できる。",
+        "title": "オールラウンダー"
+      },
+      {
+        "id": 52,
+        "type": "personality",
+        "description": "トレーニングは欠かさない。健康な肉体を宿すパワフルエンジニア",
+        "title": "肉体派"
+      },
+      {
+        "id": 53,
+        "type": "negative-ability",
+        "description": "やらないといけないのは理解している。だが、直前になるまではしない",
+        "title": "ギリギリパンチ"
+      },
+      {
+        "id": 54,
+        "type": "negative-ability",
+        "description": "タイプミスしがち。その時の自分には正しく見えていた。",
+        "title": "タイポ多し"
+      },
+      {
+        "id": 55,
+        "type": "negative-ability",
+        "description": "緊張しやすい。人前に出てしゃべるなんて！！",
+        "title": "上がり症"
+      },
+      {
+        "id": 56,
+        "type": "personality",
+        "description": "Windowsの標準ブラウザが好き。追加のインストールは必要ない。",
+        "title": "IE・Edge派"
+      },
+      {
+        "id": 57,
+        "type": "personality",
+        "description": "Google製タブブラウザが好き。端末が変わってもスキンとお気に入りは一緒",
+        "title": "Chrome派"
+      },
+      {
+        "id": 58,
+        "type": "personality",
+        "description": "アップデートでアドオンが死んでいっても、私は使い続ける。",
+        "title": "Firefox派"
+      },
+      {
+        "id": 59,
+        "type": "personality",
+        "description": "Appleの標準ブラウザが好き。追加のインストールは必要ない。",
+        "title": "Safari派"
+      },
+      {
+        "id": 60,
+        "type": "personality",
+        "description": "SleipnirとかOperaとかVivaldiとかが好き。",
+        "title": "少数派ブラウザ"
+      },
+      {
+        "id": 61,
+        "type": "personality",
+        "description": "Php StormとかInteliJとか、JetBrains社のIDEが好き。かゆいところに手が届く。",
+        "title": "JetBrains派"
+      },
+      {
+        "id": 62,
+        "type": "personality",
+        "description": "昔から、IDEがはEclipse。重いとかそういうことじゃない。愛です。",
+        "title": "Eclipse派"
+      },
+      {
+        "id": 63,
+        "type": "personality",
+        "description": "マイノリティーなIDEでも良いじゃないか、私はこれが好きなんだ。",
+        "title": "Netbeans派"
+      },
+      {
+        "id": 64,
+        "type": "personality",
+        "description": "夜に作業するほうが気分も乗るし、集中できるます。",
+        "title": "夜行性"
+      },
+      {
+        "id": 65,
+        "type": "personality",
+        "description": "朝早く起きて、新鮮な気分でやることで作業効率が上がります。",
+        "title": "朝活派"
+      },
+
+
+
+      {
+        "id": 66,
+        "type": "negative-ability",
+        "description": "急いでいる。遅いことが嫌い。人生には限られた時間しか無い。",
+        "title": "せっかち"
+      },
+      {
+        "id": 67,
+        "type": "positive-ability",
+        "description": "メールやチャットの返事を早く返してくれる",
+        "title": "レス\u00a0○"
+      },
+      {
+        "id": 68,
+        "type": "negative-ability",
+        "description": "メールやチャットの返事が遅い、または無い",
+        "title": "レス\u00a0\u00d7"
+      },
+      {
+        "id": 69,
+        "type": "positive-ability",
+        "description": "みんなが意見を聞きに来る。もしくは周りにアドバイスを積極的にする。",
+        "title": "司令塔"
+      },
+      {
+        "id": 70,
+        "type": "negative-ability",
+        "description": "業務で起こる色々な物事に対して、基本的に興味がない",
+        "title": "無関心"
+      },
+      {
+        "id": 71,
+        "type": "positive-ability",
+        "description": "相手が1,2をしゃべると、10までを理解する。",
+        "title": "察し力"
+      },
+      {
+        "id": 72,
+        "type": "positive-ability",
+        "description": "周りに対して常に気を使っている",
+        "title": "気配り屋"
+      },
+      {
+        "id": 73,
+        "type": "positive-ability",
+        "description": "いつも冷静で物事に動じにくい",
+        "title": "冷静沈着"
+      },
+      {
+        "id": 74,
+        "type": "negative-ability",
+        "description": "すぐに焦ってしまう",
+        "title": "慌てん坊"
+      },
+      {
+        "id": 75,
+        "type": "positive-ability",
+        "description": "気分を害することがあっても、怒るような場面は少ない",
+        "title": "穏やか"
+      },
+      {
+        "id": 76,
+        "type": "negative-ability",
+        "description": "すぐに頭に血が上りやすい",
+        "title": "短気"
+      },
+      {
+        "id": 77,
+        "type": "positive-ability",
+        "description": "障害やトラブル等の渦中に自分から進んで入っていく。火中の栗を拾う人。",
+        "title": "栗拾い"
+      },
+      {
+        "id": 78,
+        "type": "positive-ability",
+        "description": "観察しただけではわからないことも、直感で察知することができる",
+        "title": "洞察力"
+      },
+      {
+        "id": 79,
+        "type": "negative-ability",
+        "description": "会議等で席にいないことが多い",
+        "title": "席にいない"
+      },
+      {
+        "id": 80,
+        "type": "positive-ability",
+        "description": "PJがピンチなとき、思ってもいない力を発揮する",
+        "title": "火事場の馬鹿力"
+      },
+      {
+        "id": 81,
+        "type": "positive-ability",
+        "description": "本人がいるだけで、プロジェクトにやる気がみなぎる",
+        "title": "情熱エール"
+      },
+      {
+        "id": 82,
+        "type": "positive-ability",
+        "description": "複数の仕事を並列してこなすことができる",
+        "title": "マルチタスク"
+      }
+    ],
+    "technical-ability": {
+      "programing": [
+        {
+          "title": "PHP",
+          "description": "PHP言語を使った開発が得意"
+        },
+        {
+          "title": "Java",
+          "description": "Java言語を使った開発が得意"
+        }
+      ],
+      "database": [
+        {
+          "title": "MySQL",
+          "description": "MySQLの扱いに長けている"
+        },
+        {
+          "title": "Postgres",
+          "description": "Postgresの扱いに長けている"
+        },
+        {
+          "title": "Oracle",
+          "description": "OracleDBが得意"
+        },
+        {
+          "title": "SQLServer",
+          "description": "MS社製のRDB、SQLServerが得意"
+        },
+        {
+          "title": "Hive",
+          "description": "Hiveの扱いに長けている"
+        },
+        {
+          "title": "Vertica",
+          "description": "Verticaの扱いに長けている"
+        }
+      ],
+      "network": [
+        {
+          "title": "Firewall",
+          "description": "Firewallの扱いに長けている"
+        }
+      ],
+      "os/middleware": [
+        {
+          "title": "Apache",
+          "description": "WebServerモジュールのApacheの設定に詳しい。"
+        },
+        {
+          "title": "nginx",
+          "description": "WebServerモジュールのnginxの設定に詳しい。"
+        },
+        {
+          "title": "Git",
+          "description": "Gitの扱いに長けている。SVNの時代は終わりました。"
+        },
+        {
+          "title": "AWS",
+          "description": "AWSについて詳しい。"
+        },
+        {
+          "title": "Docker",
+          "description": "コンテナ化・マイクロサービス化が得意"
+        }
+      ],
+      "hardware": [
+        {
+          "title": "組込開発",
+          "description": ""
+        }
+      ],
+      "adebis": [
+      ],
+      "ec-cube": [
+      ]
+    },
+    "management-ability": [
+    ]
+  }
+}

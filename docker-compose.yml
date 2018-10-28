@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - 80:80
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+  eas:
+    image: httpd
+    volumes:
+      - "${PWD}:/usr/local/apache2/htdocs/"
+    ports:
+      - 8080:80
+    environment:
+      - VIRTUAL_HOST=eas.local

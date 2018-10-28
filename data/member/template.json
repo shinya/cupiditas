@@ -1,0 +1,101 @@
+{
+  "name": "ここに名前を書く",
+  "belong-to": "ここに所属を書く",
+  "title": "ここに肩書を書く",
+  "avatar": "ここに画像のパスを書く。相対パスでも外部URLでも",
+  "style": {
+    "desktop": "Mac",
+    "mobile": "Android"
+  },
+  "point-skill": [
+    {
+      "skill-name": "プログラム",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "データベース",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "ネットワーク",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "OS",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "ハードウェア",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "AD EBiS",
+      "skill-point": 100
+    },
+    {
+      "skill-name": "EC-CUBE",
+      "skill-point": 100
+    }
+  ],
+  "inherent-ability": {
+    "name": "特有スキル名",
+    "description": "特有スキルの詳細をココに記載する。"
+  },
+  "abilities": {
+    "numerical-ability": [
+      {
+        "id": 1,
+        "value": 5
+      },
+      {
+        "id": 2,
+        "value": 5
+      },
+      {
+        "id": 3,
+        "value": 5
+      },
+      {
+        "id": 4,
+        "value": 5
+      },
+      {
+        "id": 5,
+        "value": 5
+      },
+      {
+        "id": 6,
+        "value": 5
+      },
+      {
+        "id": 7,
+        "value": 5
+      },
+      {
+        "id": 8,
+        "value": 5
+      },
+      {
+        "id": 9,
+        "value": 5
+      },
+      {
+        "id": 10,
+        "value": 5
+      }
+    ],
+    "special-ability": [
+      1,2,3,4,5,6,7,8,9,10,
+      11,12,13,14,15,16,17,18,19,20,
+      21,22,23,24,25,26,27,28,29,30,
+      31,32,33,34,35,36,37,38,39,40,
+      41,42,43,44,45,46,47,48,49,50,
+      51,52,53,54,55,56,57,58,59,60,
+      61,62,63,64,65,66,67,68,69,70,
+      71,72,73,74,75,76,77,78,79,80,
+      81,82
+    ],
+    "technical-ability": {},
+    "management-ability": {}
+  }
+}

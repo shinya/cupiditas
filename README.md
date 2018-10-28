@@ -1,12 +1,15 @@
 # Cupiditas
 
+Cupiditas is "Engineer Ability Sheet"
+
+![参考画像](https://raw.githubusercontent.com/shinya/image-storage/master/eas/sample.png "参考画像")
+
 ## Engineer Ability Sheet
 
 日本の野球ゲーム「実況！パワフルプロ野球」の能力値画面のようなイメージで、エンジニアの能力をアウトプットするツールです。
 
 Like a Japanese game "Commentary! Powerful professional baseball", it is a tool to display engineer skills
 
-![参考画像](https://raw.githubusercontent.com/shinya/image-storage/master/eas/sample.png "参考画像")
 
 
 ## 使い方

@@ -4,12 +4,7 @@
 	let pointSkillScore = {};
 
 	const parameter = 'member';
-	const memberList = [
-        {
-            "key":"member",
-            "name":"エンジニア\u00a0太郎"
-        },
-    ];
+	const memberList = [];
 
 
     function getParam(name, url) {
